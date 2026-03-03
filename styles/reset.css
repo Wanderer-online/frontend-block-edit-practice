@@ -1,0 +1,103 @@
+/* 1. Скидання відступів і рамок */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Зручний скрол */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 3. Основний шрифт і базовий колір */
+body {
+  font-family: "Onest", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background: #F5F5F5;
+}
+
+/* 4. Скидаємо посилання */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. Скидаємо списки */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 6. Скидаємо картинки */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Текстові елементи */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* 8. Кнопки — прибираємо дефолтні стилі */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+a {
+  cursor: pointer;
+}
+
+/* 9. Таблиці */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+  font-size: inherit;
+}
+
+
+
+
+
+@media (max-width: 1439px) {
+.desktop-only {
+  display: none !important;
+}
+}
+@media (min-width: 1440px) {
+.mobile-only {
+  display: none !important;
+}
+}
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (min-width: 1440px) {
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+}

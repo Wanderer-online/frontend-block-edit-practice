@@ -1,0 +1,180 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "alt": "Collagen Nectar Product Image 1",
+      "src": "img/slide1.webp",
+      "srcset": {
+        "360": "img/slide1.webp",
+        "640": "img/slide1.webp",
+        "750": "img/slide1.webp",
+        "828": "img/slide1.webp",
+        "1080": "img/slide1.webp",
+        "1280": "img/slide1.webp"
+      },
+      "width": 1280,
+      "height": 1280,
+      "thumbnail": "img/slide1.webp"
+    },
+    {
+      "id": 2,
+      "alt": "Collagen Nectar Product Image 2",
+      "src": "img/slide2.webp",
+      "srcset": {
+        "360": "img/slide2.webp",
+        "640": "img/slide2.webp",
+        "750": "img/slide2.webp",
+        "828": "img/slide2.webp",
+        "1080": "img/slide2.webp",
+        "1280": "img/slide2.webp"
+      },
+      "width": 1280,
+      "height": 1280,
+      "thumbnail": "img/slide2.webp"
+    },
+    {
+      "id": 3,
+      "alt": "Collagen Nectar Product Image 3",
+      "src": "img/slide3.webp",
+      "srcset": {
+        "360": "img/slide3.webp",
+        "640": "img/slide3.webp",
+        "750": "img/slide3.webp",
+        "828": "img/slide3.webp",
+        "1080": "img/slide3.webp",
+        "1280": "img/slide3.webp"
+      },
+      "width": 1280,
+      "height": 1280,
+      "thumbnail": "img/slide3.webp"
+    },
+    {
+      "id": 4,
+      "alt": "Collagen Nectar Product Image 4",
+      "src": "img/slide4.webp",
+      "srcset": {
+        "360": "img/slide4.webp",
+        "640": "img/slide4.webp",
+        "750": "img/slide4.webp",
+        "828": "img/slide4.webp",
+        "1080": "img/slide4.webp",
+        "1280": "img/slide4.webp"
+      },
+      "width": 1280,
+      "height": 1280,
+      "thumbnail": "img/slide4.webp"
+    },
+    {
+      "id": 5,
+      "alt": "Collagen Nectar Product Image 5",
+      "src": "img/slide5.webp",
+      "srcset": {
+        "360": "img/slide5.webp",
+        "640": "img/slide5.webp",
+        "750": "img/slide5.webp",
+        "828": "img/slide5.webp",
+        "1080": "img/slide5.webp",
+        "1280": "img/slide5.webp"
+      },
+      "width": 1280,
+      "height": 1280,
+      "thumbnail": "img/fslide5.webp"
+    },
+    {
+      "id": 6,
+      "alt": "Collagen Nectar Product Image 6",
+      "src": "img/slide6.webp",
+      "srcset": {
+        "360": "img/slide6.webp",
+        "640": "img/slide6.webp",
+        "750": "img/slide6.webp",
+        "828": "img/slide6.webp",
+        "1080": "img/slide6.webp",
+        "1280": "img/slide6.webp"
+      },
+      "width": 1280,
+      "height": 1280,
+      "thumbnail": "img/fslide6.webp"
+    },
+    {
+      "id": 7,
+      "alt": "Collagen Nectar Product Image 7",
+      "src": "img/slide7.webp",
+      "srcset": {
+        "360": "img/slide7.webp",
+        "640": "img/slide7.webp",
+        "750": "img/slide7.webp",
+        "828": "img/slide7.webp", 
+        "1080": "img/slide7.webp",
+        "1280": "img/slide7.webp"
+      },
+      "width": 1280,
+      "height": 1280,
+      "thumbnail": "img/fslide7.webp"
+    }
+  ],
+  "sliderConfig": {
+    "main": {
+      "breakpoints": {
+        "0": {
+          "speed": 300,
+          "direction": "horizontal",
+          "autoHeight": false,
+          "slidesPerView": 1,
+          "freeMode": false,
+          "centeredSlides": true,
+          "centerInsufficientSlides": true,
+          "spaceBetween": 0
+        }
+      },
+      "navigation": {
+        "nextEl": ".shopify-slider-p0v3Wq2c0KULJHOO-button-next",
+        "prevEl": ".shopify-slider-p0v3Wq2c0KULJHOO-button-prev",
+        "disabledClass": "shopify-slider-button-disabled",
+        "hiddenClass": "shopify-slider-button-hidden",
+        "lockClass": "shopify-slider-button-lock",
+        "navigationDisabledClass": "shopify-slider-navigation-disabled"
+      },
+      "watchOverflow": true,
+      "thumbs": {
+        "slideThumbActiveClass": "shopify-slider-thumb-active",
+        "thumbsContainerClass": "shopify-slider-thumbs"
+      }
+    },
+    "thumbnails": {
+      "breakpoints": {
+        "0": {
+          "speed": 300,
+          "direction": "horizontal",
+          "autoHeight": false,
+          "slidesPerView": 4,
+          "freeMode": false,
+          "centeredSlides": false,
+          "centerInsufficientSlides": false,
+          "spaceBetween": 16
+        },    
+        "769": {
+          "speed": 300,
+          "direction": "horizontal",
+          "autoHeight": false,
+          "slidesPerView": 6,
+          "freeMode": false,
+          "centeredSlides": false,
+          "centerInsufficientSlides": false,
+          "spaceBetween": 16
+        }
+      },
+      "navigation": {
+        "nextEl": ".shopify-slider-9MuTiHFVI9qvIaSA-button-next",
+        "prevEl": ".shopify-slider-9MuTiHFVI9qvIaSA-button-prev",
+        "disabledClass": "shopify-slider-button-disabled",
+        "hiddenClass": "shopify-slider-button-hidden",
+        "lockClass": "shopify-slider-button-lock",
+        "navigationDisabledClass": "shopify-slider-navigation-disabled"
+      },
+      "watchOverflow": true,
+      "watchSlidesProgress": true
+    }
+  }
+}
+

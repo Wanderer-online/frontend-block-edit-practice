@@ -1,0 +1,129 @@
+.sticky-btn-wrap {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+padding: 0 20px 20px 20px;
+    cursor: pointer;
+    --sticky-translate-x: 0px;
+    --sticky-translate-y: 24px;
+    --sticky-scale: 0.98;
+    transform: translateX(var(--sticky-translate-x)) translateY(var(--sticky-translate-y)) scale(var(--sticky-scale));
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 200ms ease, transform 320ms ease;
+    will-change: transform, opacity;
+
+  }
+.sticky-btn-wrap.is-visible {
+    --sticky-translate-y: 0px;
+    --sticky-scale: 1;
+    opacity: 1;
+    pointer-events: auto;
+    animation: stickyPop 420ms ease-out;
+}
+
+@keyframes stickyPop {
+  0% {
+    opacity: 0;
+    transform: translateX(var(--sticky-translate-x)) translateY(24px) scale(0.96);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(var(--sticky-translate-x)) translateY(-6px) scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(var(--sticky-translate-x)) translateY(0) scale(1);
+  }
+}
+.sticky-btn {
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+      display: inline-block;
+  padding: 12px 36px;
+  border-radius: 35px;
+  background-color: #7d0829;
+box-shadow: 0px 0px 38px 0px #FFFFFF80;
+}
+.sticky-btn-text {
+font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+}
+.sticky-btn-text span{
+font-weight: 700;
+font-size: 20px;
+}
+.sticky-btn-text2 {
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+margin-top: 5px;
+}
+.footer {
+    background: #7D08291A;
+padding: 30px;
+margin-left: 0;
+margin-right: 0;
+    margin-top: 100px;
+}
+.footer-text-block {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.footer-text-block p {
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+color: #0000004D;
+
+}
+#cc-id-IplzEDLgtKul button + button{
+   margin-left: 10px;
+}
+@media (max-width: 1023px) { 
+.footer-text-block {
+flex-direction: column;
+align-items: center;
+}
+}
+@media (min-width: 1440px) { 
+    .sticky-btn-wrap {
+    left: 50%;
+    right: auto;
+    --sticky-translate-x: -50%;
+}
+.sticky-btn {
+    width: 500px;
+}
+.sticky-btn-text {
+    font-size: 22px;;
+}
+.sticky-btn-text span {
+    font-size: 24px;
+}
+.sticky-btn-text2 {
+    font-size: 18px;
+}
+
+.footer {
+padding: 50px;
+}
+    .footer-text-block {
+    gap: 40px;
+    margin-top: 40px;
+}
+.footer-text-block p {
+    font-size: 20px;
+}
+
+
+
+}
