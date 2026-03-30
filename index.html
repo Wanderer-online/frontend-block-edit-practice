@@ -10,6 +10,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap"
     rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/accordion.css">
@@ -39,9 +43,11 @@
     <!-- Marquee End -->
   </header>
   <main>
+
     <section id="product-block" class="product-block container">
-      <div class="mobile-only">
-        <h2 class="product-block-title">Collagen Nectar</h2>
+      <div class="mobile-only" style="display:none;">
+        <!-- убрать тут style="display:none;" -->
+        <h2 class="product-block-title">Цей блок відображається лише на мобільних пристроях</h2>
         <p class="product-block-subtitle">Liquid marine collagen</p>
         <div class="product-block-rating-wrap">
           <span class="product-block-rating-servings">30 servings</span>
@@ -67,19 +73,28 @@
                     <!-- Slides will be populated by JavaScript -->
                   </div>
                 </div>
+                <button
+                  class="shopify-slider-button shopify-slider-button-prev shopify-slider-p0v3Wq2c0KULJHOO-button-prev"
+                  data-shopify-type="slider-button-prev" type="button">
+                  <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24.0002 10.0003C24.0002 9.56974 23.6465 9.22029 23.2108 9.22029L2.71869 9.22029L10.8167 1.35144C10.8941 1.28046 10.9562 1.19487 10.9995 1.09975C11.0427 1.00463 11.0662 0.9019 11.0686 0.797641C11.071 0.693383 11.0522 0.58971 11.0133 0.492754C10.9745 0.395799 10.9163 0.307528 10.8423 0.233164C10.7683 0.1588 10.68 0.0998514 10.5825 0.0598048C10.4851 0.0197581 10.3805 -0.000573775 10.2749 1.18508e-05C10.1694 0.000597477 10.065 0.0220886 9.96803 0.0632142C9.87104 0.10434 9.78337 0.164265 9.71022 0.239445L0.244186 9.43682L0.227133 9.45305C0.145095 9.53511 0.0825797 9.63419 0.044126 9.7431C0.00567236 9.85201 -0.00775499 9.96801 0.00481888 10.0827C0.0246128 10.2703 0.112838 10.4444 0.253028 10.5725L9.71023 19.7605C9.78337 19.8357 9.87104 19.8957 9.96803 19.9368C10.065 19.9779 10.1694 19.9994 10.2749 20C10.3805 20.0006 10.4851 19.9802 10.5825 19.9402C10.68 19.9001 10.7683 19.8412 10.8423 19.7668C10.9163 19.6925 10.9745 19.6042 11.0133 19.5072C11.0522 19.4103 11.071 19.3066 11.0686 19.2024C11.0662 19.0981 11.0427 18.9954 10.9995 18.9002C10.9562 18.8051 10.8941 18.7195 10.8167 18.6485L2.71869 10.7797L23.2108 10.7797C23.6465 10.7797 24.0002 10.4315 24.0002 10.0003Z"
+                      fill="#121313"></path>
+                  </svg>
+                </button>
+                <button
+                  class="shopify-slider-button shopify-slider-button-next shopify-slider-p0v3Wq2c0KULJHOO-button-next"
+                  data-shopify-type="slider-button-next" type="button">
+
+                  <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1.65702e-05 9.99969C1.65137e-05 10.4303 0.353698 10.7797 0.789483 10.7797L21.2816 10.7797L13.1835 18.6486C13.1062 18.7195 13.044 18.8051 13.0008 18.9002C12.9575 18.9954 12.934 19.0981 12.9316 19.2024C12.9292 19.3066 12.948 19.4103 12.9869 19.5072C13.0258 19.6042 13.0839 19.6925 13.1579 19.7668C13.2319 19.8412 13.3203 19.9001 13.4177 19.9402C13.5152 19.9802 13.6198 20.0006 13.7253 20C13.8309 19.9994 13.9352 19.9779 14.0322 19.9368C14.1292 19.8957 14.2169 19.8357 14.29 19.7606L23.7561 10.5632L23.7731 10.547C23.8552 10.4649 23.9177 10.3658 23.9561 10.2569C23.9946 10.148 24.008 10.032 23.9954 9.91732C23.9756 9.72968 23.8874 9.55556 23.7472 9.42747L14.29 0.239453C14.2169 0.164271 14.1292 0.104346 14.0322 0.0632197C13.9352 0.0220934 13.8309 0.000603296 13.7253 1.77261e-05C13.6198 -0.000567844 13.5152 0.0197645 13.4177 0.0598112C13.3203 0.0998578 13.2319 0.158806 13.1579 0.23317C13.0839 0.307534 13.0258 0.395806 12.9869 0.492762C12.948 0.589716 12.9292 0.693388 12.9316 0.797648C12.934 0.901906 12.9575 1.00464 13.0008 1.09976C13.0441 1.19488 13.1062 1.28046 13.1835 1.35145L21.2816 9.22029L0.789484 9.22029C0.353698 9.22029 1.66267e-05 9.56849 1.65702e-05 9.99969Z"
+                      fill="#121313"></path>
+                  </svg>
+
+                </button>
               </div>
-              <button
-                class="shopify-slider-button shopify-slider-button-prev shopify-slider-p0v3Wq2c0KULJHOO-button-prev"
-                data-shopify-type="slider-button-prev" type="button"><svg viewBox="0 0 14 10" width="14" height="10"
-                  aria-hidden="true">
-                  <path d="M6.6 9.4L1.2 5l5.4-4.4M1 5h12" fill="none" stroke="currentColor" stroke-width="1.3" />
-                </svg></button>
-              <button
-                class="shopify-slider-button shopify-slider-button-next shopify-slider-p0v3Wq2c0KULJHOO-button-next"
-                data-shopify-type="slider-button-next" type="button"><svg viewBox="0 0 14 10" width="14" height="10"
-                  aria-hidden="true">
-                  <path d="M7.4 9.4L12.8 5 7.4.6M13 5H1" fill="none" stroke="currentColor" stroke-width="1.3" />
-                </svg></button>
+
 
               <div class="shopify-slider-container ilZAXLa0KEQPTS9q2" data-shopify-type="slider-container">
                 <script type="application/json"
@@ -112,35 +127,66 @@
 
 
         <div class="product-block-right">
-          <div class="desktop-only">
-            <h2 class="product-block-title">Collagen Nectar</h2>
-            <p class="product-block-subtitle">Liquid marine collagen</p>
-            <div class="product-block-rating-wrap">
-              <span class="product-block-rating-servings">30 servings</span>
-              <span class="product-block-rating-content">
-                <img src="img/stars.webp" alt="">
-                4.74 From 2,620 reviews
-              </span>
+          <div class="desktop-only" style="display:none;">
+            <!-- убрать тут style="display:none;" -->
+            <div class="item__row1">
+              <p class="item__available">В наявності на сайті</p>
+              <p class="item__id">Артикул 020057</p>
+            </div>
+            <h2 class="product-block-title">Молочна блуза з краваткою</h2>
+
+
+            <div class="item__row2">
+              <div class="item__prices"><span class="item__price item__price--solo">2 199<span class="currency__symbol">
+                    ₴</span></span></div>
             </div>
           </div>
-          <div class="product-block-description">
-            <p>Drinkable collagen for firm, glowing skin, strong nails, and healthy hair. Powered by a triple blend of
-              marine collagen, hyaluronic acid, and vitamin C – beauty that works from within.</p>
-            <ul class="product-block-description-list-wrap">
-              <li><img src="icon/green_check.svg" alt="">
-                <p><strong>5,000 mg Hydrolyzed Marine Collagen (Types I & III)</strong> - full daily dose to boost skin
-                  firmness, elasticity, and radiance</p>
-              </li>
-              <li><img src="icon/green_check.svg" alt="">
-                <p><strong>100 mg Hyaluronic Acid</strong> - clinically backed dose for deep hydration and smoother skin
-                </p>
-              </li>
-              <li><img src="icon/green_check.svg" alt="">
-                <p><strong>80 mg Vitamin C</strong> - essential for collagen synthesis and daily antioxidant defense</p>
-              </li>
-            </ul>
+
+          <div class="item__row1">
+            <p class="item__available">В наявності на сайті</p>
+            <p class="item__id">Артикул 020057</p>
+          </div>
+          <h2 class="product-block-title">Молочна блуза з краваткою</h2>
+
+
+          <div class="item__row2">
+            <div class="item__prices"><span class="item__price item__price--solo">2 199<span class="currency__symbol">
+                  ₴</span></span></div>
           </div>
 
+          <div class="item__sizes">
+            <div class="product__option"><input type="hidden" name="quantity" value="1" size="5"
+                id="input-quantity"><input type="hidden" name="product_id" value="26875">
+
+              <div class="form-group required"><label class="control-label item__size-text">Розмір</label>
+                <div id="input-option21095" class="product__input-option">
+                  <div class="radio "><input type="radio" class="custom-radio size-radio" name="option[21095]"
+                      value="73394" data-price="+0" id="prod-option-2109573394" data-option-quantity="1"><label
+                      class="item__size-button" for="prod-option-2109573394">
+                      XXS-XS </label></div>
+                  <div class="radio "><input type="radio" class="custom-radio size-radio" name="option[21095]"
+                      value="73395" data-price="+0" id="prod-option-2109573395" data-option-quantity="3"><label
+                      class="item__size-button" for="prod-option-2109573395">
+                      S-M </label></div>
+                  <div class="radio "><input type="radio" class="custom-radio size-radio" name="option[21095]"
+                      value="73393" data-price="+0" id="prod-option-2109573393" data-option-quantity="2"><label
+                      class="item__size-button" for="prod-option-2109573393">
+                      L-XL </label></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item__button-add">
+            Додати в кошик &nbsp; <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.36328 4.58203H13.3133L12.6896 11.1594C12.6559 11.5153 12.4847 11.8464 12.2095 12.0875C11.9344 12.3286 11.5753 12.4624 11.2026 12.4625H3.47395C3.10129 12.4624 2.74214 12.3286 2.46701 12.0875C2.19188 11.8464 2.02065 11.5153 1.98692 11.1594L1.36328 4.58203Z"
+                stroke="white" stroke-width="0.8" stroke-linejoin="round"></path>
+              <path
+                d="M4.35083 6.01484V3.86562C4.35083 3.10561 4.66558 2.37673 5.22585 1.83932C5.78611 1.30191 6.54599 1 7.33833 1C8.13066 1 8.89054 1.30191 9.45081 1.83932C10.0111 2.37673 10.3258 3.10561 10.3258 3.86562V6.01484"
+                stroke="white" stroke-width="0.8" stroke-linecap="round"></path>
+            </svg></div>
 
         </div>
       </div>
@@ -463,6 +509,22 @@
         <p class="sticky-btn-text2">30 day money back guarantee</p>
       </a>
     </div>
+    <div role="button" tabindex="0"
+      class="new-sticky-button jBNpEG eapp-click-to-call-button-component eapp-click-to-call-button-animateSmall">
+      <div class="Button__IconContainer-sc-631092ad-1 jmGmKA eapp-click-to-call-button-iconContainer"><svg
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 578.106 578.106"
+          class="Button__ButtonIcon-sc-631092ad-2 ezcxry eapp-click-to-call-button-icon">
+          <path
+            d="M577.83 456.128c1.225 9.385-1.635 17.545-8.568 24.48l-81.396 80.781c-3.672 4.08-8.465 7.551-14.381 10.404-5.916 2.857-11.729 4.693-17.439 5.508-.408 0-1.635.105-3.676.309-2.037.203-4.689.307-7.953.307-7.754 0-20.301-1.326-37.641-3.979s-38.555-9.182-63.645-19.584c-25.096-10.404-53.553-26.012-85.376-46.818-31.823-20.805-65.688-49.367-101.592-85.68-28.56-28.152-52.224-55.08-70.992-80.783-18.768-25.705-33.864-49.471-45.288-71.299-11.425-21.828-19.993-41.616-25.705-59.364S4.59 177.362 2.55 164.51-.306 141.56.102 134.216c.408-7.344.612-11.424.612-12.24.816-5.712 2.652-11.526 5.508-17.442s6.324-10.71 10.404-14.382L98.022 8.756c5.712-5.712 12.24-8.568 19.584-8.568 5.304 0 9.996 1.53 14.076 4.59s7.548 6.834 10.404 11.322l65.484 124.236c3.672 6.528 4.692 13.668 3.06 21.42-1.632 7.752-5.1 14.28-10.404 19.584l-29.988 29.988c-.816.816-1.53 2.142-2.142 3.978s-.918 3.366-.918 4.59c1.632 8.568 5.304 18.36 11.016 29.376 4.896 9.792 12.444 21.726 22.644 35.802s24.684 30.293 43.452 48.653c18.36 18.77 34.68 33.354 48.96 43.76 14.277 10.4 26.215 18.053 35.803 22.949 9.588 4.896 16.932 7.854 22.031 8.871l7.648 1.531c.816 0 2.145-.307 3.979-.918 1.836-.613 3.162-1.326 3.979-2.143l34.883-35.496c7.348-6.527 15.912-9.791 25.705-9.791 6.938 0 12.443 1.223 16.523 3.672h.611l118.115 69.768c8.571 5.308 13.67 12.038 15.303 20.198z">
+          </path>
+        </svg></div>
+      <div class="Button__Text-sc-631092ad-4 hZWidG eapp-click-to-call-button-text">Call Us
+      </div>
+    </div>
+
+
+
+
     <a class="logo" href="#">
       <img src="./img/logo.svg" alt="Feelomena" width="142" height="25" loading="lazy" class="logo__image" />
     </a>

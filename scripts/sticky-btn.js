@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const btn = document.querySelector('.sticky-btn-wrap');
+    const btn = document.querySelector('.new-sticky-button');
     const footer = document.querySelector('footer');
     const productBlock = document.querySelector('#product-block');
-  
+
     if (!btn || !footer) return;
-  
+
     function updateButtonPosition() {
       const footerRect = footer.getBoundingClientRect();
       const windowHeight = window.innerHeight;
-  
+
       if (footerRect.top < windowHeight) {
         // Футер з'явився у видимості → піднімаємо кнопку над футером
         const overlap = windowHeight - footerRect.top;
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.style.bottom = '0px';
       }
     }
-  
+
     function updateStickyVisibility() {
       if (!productBlock) return;
       const productBottom = productBlock.offsetTop + productBlock.offsetHeight;
@@ -28,16 +28,16 @@ document.addEventListener('DOMContentLoaded', function () {
       const shouldShow = viewportBottom >= productBottom + btnHeight + safeOffset;
       btn.classList.toggle('is-visible', shouldShow);
     }
-  
+
     // Робимо функцію доступною глобально для виклику з інших скриптів
     window.updateStickyButtonPosition = updateButtonPosition;
     window.updateStickyButtonVisibility = updateStickyVisibility;
-  
+
     window.addEventListener('scroll', updateButtonPosition);
     window.addEventListener('resize', updateButtonPosition);
     window.addEventListener('scroll', updateStickyVisibility);
     window.addEventListener('resize', updateStickyVisibility);
-  
+
     // Виставимо початкове положення
     updateButtonPosition();
     updateStickyVisibility();

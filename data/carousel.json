@@ -3,114 +3,146 @@
     {
       "id": 1,
       "alt": "Collagen Nectar Product Image 1",
-      "src": "img/slide1.webp",
+      "src": "img/020057 блуза (1)-800x1200.webp",
       "srcset": {
-        "360": "img/slide1.webp",
-        "640": "img/slide1.webp",
-        "750": "img/slide1.webp",
-        "828": "img/slide1.webp",
-        "1080": "img/slide1.webp",
-        "1280": "img/slide1.webp"
+        "360": "img/020057 блуза (1)-800x1200.webp",
+        "640": "img/020057 блуза (1)-800x1200.webp",
+        "750": "img/020057 блуза (1)-800x1200.webp",
+        "828": "img/020057 блуза (1)-800x1200.webp",
+        "1080": "img/020057 блуза (1)-800x1200.webp",
+        "1280": "img/020057 блуза (1)-800x1200.webp"
       },
-      "width": 1280,
-      "height": 1280,
-      "thumbnail": "img/slide1.webp"
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (1)-800x1200.webp"
     },
     {
       "id": 2,
       "alt": "Collagen Nectar Product Image 2",
-      "src": "img/slide2.webp",
+      "src": "img/020057 блуза (2)-800x1200.webp",
       "srcset": {
-        "360": "img/slide2.webp",
-        "640": "img/slide2.webp",
-        "750": "img/slide2.webp",
-        "828": "img/slide2.webp",
-        "1080": "img/slide2.webp",
-        "1280": "img/slide2.webp"
+        "360": "img/020057 блуза (2)-800x1200.webp",
+        "640": "img/020057 блуза (2)-800x1200.webp",
+        "750": "img/020057 блуза (2)-800x1200.webp",
+        "828": "img/020057 блуза (2)-800x1200.webp",
+        "1080": "img/020057 блуза (2)-800x1200.webp",
+        "1280": "img/020057 блуза (2)-800x1200.webp"
       },
-      "width": 1280,
-      "height": 1280,
-      "thumbnail": "img/slide2.webp"
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (2)-800x1200.webp"
     },
     {
       "id": 3,
       "alt": "Collagen Nectar Product Image 3",
-      "src": "img/slide3.webp",
+      "src": "img/020057 блуза (3)-800x1200.webp",
       "srcset": {
-        "360": "img/slide3.webp",
-        "640": "img/slide3.webp",
-        "750": "img/slide3.webp",
-        "828": "img/slide3.webp",
-        "1080": "img/slide3.webp",
-        "1280": "img/slide3.webp"
+        "360": "img/020057 блуза (3)-800x1200.webp",
+        "640": "img/020057 блуза (3)-800x1200.webp",
+        "750": "img/020057 блуза (3)-800x1200.webp",
+        "828": "img/020057 блуза (3)-800x1200.webp",
+        "1080": "img/020057 блуза (3)-800x1200.webp",
+        "1280": "img/020057 блуза (3)-800x1200.webp"
       },
-      "width": 1280,
-      "height": 1280,
-      "thumbnail": "img/slide3.webp"
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (3)-800x1200.webp"
     },
     {
       "id": 4,
       "alt": "Collagen Nectar Product Image 4",
-      "src": "img/slide4.webp",
+      "src": "img/020057 блуза (4)-800x1200.webp",
       "srcset": {
-        "360": "img/slide4.webp",
-        "640": "img/slide4.webp",
-        "750": "img/slide4.webp",
-        "828": "img/slide4.webp",
-        "1080": "img/slide4.webp",
-        "1280": "img/slide4.webp"
+        "360": "img/020057 блуза (4)-800x1200.webp",
+        "640": "img/020057 блуза (4)-800x1200.webp",
+        "750": "img/020057 блуза (4)-800x1200.webp",
+        "828": "img/020057 блуза (4)-800x1200.webp",
+        "1080": "img/020057 блуза (4)-800x1200.webp",
+        "1280": "img/020057 блуза (4)-800x1200.webp"
       },
-      "width": 1280,
-      "height": 1280,
-      "thumbnail": "img/slide4.webp"
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (4)-800x1200.webp"
     },
     {
       "id": 5,
       "alt": "Collagen Nectar Product Image 5",
-      "src": "img/slide5.webp",
+      "src": "img/020057 блуза (5)-800x1200.webp",
       "srcset": {
-        "360": "img/slide5.webp",
-        "640": "img/slide5.webp",
-        "750": "img/slide5.webp",
-        "828": "img/slide5.webp",
-        "1080": "img/slide5.webp",
-        "1280": "img/slide5.webp"
+        "360": "img/020057 блуза (5)-800x1200.webp",
+        "640": "img/020057 блуза (5)-800x1200.webp",
+        "750": "img/020057 блуза (5)-800x1200.webp",
+        "828": "img/020057 блуза (5)-800x1200.webp",
+        "1080": "img/020057 блуза (5)-800x1200.webp",
+        "1280": "img/020057 блуза (5)-800x1200.webp"
       },
-      "width": 1280,
-      "height": 1280,
-      "thumbnail": "img/fslide5.webp"
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (5)-800x1200.webp"
     },
     {
       "id": 6,
       "alt": "Collagen Nectar Product Image 6",
-      "src": "img/slide6.webp",
+      "src": "img/020057 блуза (6)-800x1200.webp",
       "srcset": {
-        "360": "img/slide6.webp",
-        "640": "img/slide6.webp",
-        "750": "img/slide6.webp",
-        "828": "img/slide6.webp",
-        "1080": "img/slide6.webp",
-        "1280": "img/slide6.webp"
+        "360": "img/020057 блуза (6)-800x1200.webp",
+        "640": "img/020057 блуза (6)-800x1200.webp",
+        "750": "img/020057 блуза (6)-800x1200.webp",
+        "828": "img/020057 блуза (6)-800x1200.webp",
+        "1080": "img/020057 блуза (6)-800x1200.webp",
+        "1280": "img/020057 блуза (6)-800x1200.webp"
       },
-      "width": 1280,
-      "height": 1280,
-      "thumbnail": "img/fslide6.webp"
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (6)-800x1200.webp"
     },
     {
       "id": 7,
       "alt": "Collagen Nectar Product Image 7",
-      "src": "img/slide7.webp",
+      "src": "img/020057 блуза (7)-800x1200.webp",
       "srcset": {
-        "360": "img/slide7.webp",
-        "640": "img/slide7.webp",
-        "750": "img/slide7.webp",
-        "828": "img/slide7.webp", 
-        "1080": "img/slide7.webp",
-        "1280": "img/slide7.webp"
+        "360": "img/020057 блуза (7)-800x1200.webp",
+        "640": "img/020057 блуза (7)-800x1200.webp",
+        "750": "img/020057 блуза (7)-800x1200.webp",
+        "828": "img/020057 блуза (7)-800x1200.webp",
+        "1080": "img/020057 блуза (7)-800x1200.webp",
+        "1280": "img/020057 блуза (7)-800x1200.webp"
       },
-      "width": 1280,
-      "height": 1280,
-      "thumbnail": "img/fslide7.webp"
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (7)-800x1200.webp"
+    },
+        {
+      "id": 8,
+      "alt": "Collagen Nectar Product Image 8",
+      "src": "img/020057 блуза (8)-800x1200.webp",
+      "srcset": {
+        "360": "img/020057 блуза (8)-800x1200.webp",
+        "640": "img/020057 блуза (8)-800x1200.webp",
+        "750": "img/020057 блуза (8)-800x1200.webp",
+        "828": "img/020057 блуза (8)-800x1200.webp",
+        "1080": "img/020057 блуза (8)-800x1200.webp",
+        "1280": "img/020057 блуза (8)-800x1200.webp"
+      },
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (8)-800x1200.webp"
+    },
+        {
+      "id": 9,
+      "alt": "Collagen Nectar Product Image 9",
+      "src": "img/020057 блуза (9)-800x1200.webp",
+      "srcset": {
+        "360": "img/020057 блуза (9)-800x1200.webp",
+        "640": "img/020057 блуза (9)-800x1200.webp",
+        "750": "img/020057 блуза (9)-800x1200.webp",
+        "828": "img/020057 блуза (9)-800x1200.webp",
+        "1080": "img/020057 блуза (9)-800x1200.webp",
+        "1280": "img/020057 блуза (9)-800x1200.webp"
+      },
+      "width": 800,
+      "height": 1200,
+      "thumbnail": "img/020057 блуза (9)-800x1200.webp"
     }
   ],
   "sliderConfig": {
@@ -147,17 +179,17 @@
           "speed": 300,
           "direction": "horizontal",
           "autoHeight": false,
-          "slidesPerView": 4,
+          "slidesPerView": 3,
           "freeMode": false,
           "centeredSlides": false,
           "centerInsufficientSlides": false,
           "spaceBetween": 16
-        },    
+        },
         "769": {
           "speed": 300,
           "direction": "horizontal",
           "autoHeight": false,
-          "slidesPerView": 6,
+          "slidesPerView": 5,
           "freeMode": false,
           "centeredSlides": false,
           "centerInsufficientSlides": false,
@@ -177,4 +209,3 @@
     }
   }
 }
-
